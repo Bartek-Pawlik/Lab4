@@ -15,10 +15,12 @@ export class AppComponent {
   dbl : string = "";
   show : boolean = true;
 
+  //function to increment number of clicks
   incr()
   {
     this.clicks++;
   }
+  //function to show and hide text
   dblClick()
   {
       this.show = !this.show;

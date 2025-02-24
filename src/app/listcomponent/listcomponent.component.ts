@@ -9,6 +9,7 @@ import { NgFor } from '@angular/common';
 })
 export class ListcomponentComponent {
 
+  //list of names and terms of presidents
   presidents: any[] =
   [{name: "Higgins", term:"2011-"},
   {name: "McAleese", term:"1997-2011"},

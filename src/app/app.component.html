@@ -1,15 +1,13 @@
+<!-- image with dblclick to display text -->
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Red_star.svg"
-height="42" width="42" (dblclick)="dblClick()">
+height="42" width="42" (dblclick)="dblClick()"> 
 
+<!-- text is revealed when star is dbl clicked -->
 <h2 [hidden]="show"> Look at the star </h2>
 
-<br>
+<br> <!-- button to increment times clicked -->
 <button (click)="incr()"> Press me </button>
 
 <h2> The number of times the button has been pressed is: {{ clicks }} </h2>
-
-
-<br>
 <br> 
-
 <app-listcomponent></app-listcomponent>
